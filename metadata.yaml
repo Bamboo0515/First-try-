@@ -1,0 +1,9 @@
+name: astrbot_plugin_song_request
+display_name: 点歌机
+desc: "原创歌曲点播：给个主题就写词、编曲、唱出来，返回一个 mp3"
+help: "说「来首歌，关于早八」，或用命令 /点歌 <主题>"
+version: v1.0.0
+author: 芙宁娜
+repo: local
+support_platforms:
+  - aiocqhttp

@@ -1,0 +1,46 @@
+{
+    "enabled_groups": {
+        "description": "允许点歌的群",
+        "hint": "留空=所有群",
+        "type": "list",
+        "default": []
+    },
+    "style_prompt": {
+        "description": "默认风格提示（英文）",
+        "hint": "用户没说风格时用它",
+        "type": "string",
+        "default": "uplifting chinese pop rock, warm male vocal, live drums"
+    },
+    "queue_python": {
+        "description": "跑流水线的 python",
+        "hint": "sing_queue.py 所在 venv 的解释器",
+        "type": "string",
+        "default": "D:\\\\FurinaSinger\\\\.venv\\\\Scripts\\\\python.exe"
+    },
+    "queue_script": {
+        "description": "sing_queue.py 路径",
+        "type": "string",
+        "default": "D:\\\\FurinaSinger\\\\sing_queue.py"
+    },
+    "timeout_seconds": {
+        "description": "单首最长等待秒数",
+        "type": "int",
+        "default": 300
+    },
+    "daily_quota": {
+        "description": "每群每天名额",
+        "hint": "交给 sing_queue.py 执行，管理员不占名额",
+        "type": "int",
+        "default": 3
+    },
+    "ace_script": {
+        "description": "重量分支入口（19 种语言）",
+        "type": "string",
+        "default": "D:\\\\FurinaSinger\\\\sing_queue_ace.py"
+    },
+    "ace_timeout_seconds": {
+        "description": "重量分支最长等待秒数",
+        "type": "int",
+        "default": 1800
+    }
+}
